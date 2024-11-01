@@ -202,7 +202,7 @@ def main():
 
 运行代码，终端输出如下：
 
-![1730470626139]([image/实验报告/1730470626139.png](https://github.com/tloneh/2024Fall-Machine-Learning-and-Data-Mining/blob/main/%E4%BD%9C%E4%B8%9A%E4%B8%80%20SVM/image/1730470626139.png))
+![1730470626139](/image/1730470626139.png)
 
 ### 1.不同核函数的模型性能比较
 
