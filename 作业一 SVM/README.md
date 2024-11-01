@@ -207,8 +207,11 @@ def main():
 ### 1.不同核函数的模型性能比较
 
 SVM with linear kernel:
+
 {'accuracy': 0.9995271867612293, 'precision': 0.9991197183098591, 'recall': 1.0, 'f1': 0.9995596653456628}
+
 SVM with RBF kernel:
+
 {'accuracy': 0.9962174940898345, 'precision': 0.9991142604074402, 'recall': 0.9938325991189427, 'f1': 0.9964664310954064}
 
 可以看到线性核的四个指标均高于高斯核指标（因为分类较简单，准确率均较高）
@@ -218,8 +221,11 @@ SVM with RBF kernel:
 ### 2.采用 hinge loss 线性分类模型和 cross-entropy loss 线性分类模型比较
 
 Linear model with hinge loss:
+
 {'accuracy': 0.9976359338061466, 'precision': 0.9982363315696648, 'recall': 0.9973568281938326, 'f1': 0.99779638607316}
+
 Linear model with cross-entropy loss:
+
 {'accuracy': 0.9981087470449173, 'precision': 0.9982378854625551, 'recall': 0.9982378854625551, 'f1': 0.9982378854625551}
 
 可以看到交叉熵损失函数的性能表现优于合页损失。
