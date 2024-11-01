@@ -18,6 +18,10 @@ def load_data(train_path, test_path):
     # 将标签与特征分离，第一列为标签，后均为数据
     X_train, y_train = train_data.iloc[:, 1:], train_data.iloc[:, 0]
     X_test, y_test = test_data.iloc[:, 1:], test_data.iloc[:, 0]
+
+    # # 随机打乱训练数据，种子为42
+    # X_train, y_train = shuffle(X_train, y_train, random_state=42)
+    # X_test, y_test = shuffle(X_test, y_test, random_state=42)
     
     # 归一化特征，收敛更快
     scaler = StandardScaler()
