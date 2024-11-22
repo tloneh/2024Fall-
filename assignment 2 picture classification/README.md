@@ -612,9 +612,9 @@ num_classes共有十类，为10
 
 实验结果如下：
 
-![1732018301709](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/tlone/Desktop/assignment%202%20picture%20classification/image/README/1732018301709.png)
+![1732018301709](image/README/1732018301709.png)
 
-![1732018392976](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/tlone/Desktop/assignment%202%20picture%20classification/image/README/1732018392976.png)
+![1732018392976](image/README/1732018392976.png)
 
 在 CIFAR-10 数据集上，因为它无法捕捉复杂的特征，Softmax 分类器通常表现有限（大约 30%-40% 的准确率）。
 
